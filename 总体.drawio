@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T10:21:35.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.0" etag="S79BAoHP-yKo3TVlOYzK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T11:31:19.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="dcqO9wRp1ckHgDopefFu" version="22.1.0" type="github">
   <diagram name="第 1 页" id="SwdhVldykBLy7ebFgl16">
-    <mxGraphModel>
+    <mxGraphModel dx="868" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-1" value="骨干网络&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;CSPNeXt&lt;/span&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="93.24" width="86.68" height="54.76" as="geometry" />
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.998;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AA1hNU3Hiqkv1bmSTWCg-4" target="AA1hNU3Hiqkv1bmSTWCg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="100.35" as="sourcePoint" />
+            <mxPoint x="108.10500000000002" y="101.05999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-4" value="视频输入" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-6" value="多目标跟踪&lt;br&gt;SORT算法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AA1hNU3Hiqkv1bmSTWCg-1" target="AA1hNU3Hiqkv1bmSTWCg-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="130" as="sourcePoint" />
+            <mxPoint x="250" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AA1hNU3Hiqkv1bmSTWCg-1" target="AA1hNU3Hiqkv1bmSTWCg-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201" y="131" as="sourcePoint" />
+            <mxPoint x="240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AA1hNU3Hiqkv1bmSTWCg-9" value="姿态估计&lt;br&gt;SimDR算法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
